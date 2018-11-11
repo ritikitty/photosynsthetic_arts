@@ -39,6 +39,7 @@ Author:Denis Samardjiev
 */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:700,400,300,100|Montserrat:400,700);
+@import url(/fonts/AdobeSongStd-Light.otf);
 
 /* =Common Styles
 -------------------------------------------------------------- */
@@ -994,7 +995,7 @@ ul.social-buttons li a:active {
 .jumbotron.jumbotron-main { 
 	height: 100%;
 	width: 100%;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'AdobeSongStd-Light', serif;
 	color: #fff;
 	padding-top: 0;
 	padding-bottom: 0;
