@@ -117,6 +117,10 @@ USE_L10N = True
 
 USE_TZ = True
 
+<<<<<<< HEAD
+=======
+#test
+>>>>>>> e32e90856f803b379d950afbfcc51fdba154c82b
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
