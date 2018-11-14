@@ -97,20 +97,20 @@
 
 	<!-- Begin Jumbotron -->
 	<div class="jumbotron jumbotron-main" id="home">
-		<div id="particles-js"></div><!-- /.particles div -->
-		<div class="container center-vertically-holder">
-			<div class="center-vertically">
-				<div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
-					<h1 class="scaleReveal">
-						We are <strong>Photosynthetic Arts</strong>.
-					</h1>
-					<hr class="bottomReveal">
-					<p class="bottomReveal">with passion - with love.</p>
-					<a href="#ideology" data-id="ideology" class="scroll-link">
-					</a>
-				</div><!-- /.column -->
-			</div><!-- /.vertical center -->
-		</div><!-- /.container -->
+			<div id="particles-js"></div><!-- /.particles div -->
+			<div class="container center-vertically-holder">
+				<div class="center-vertically">
+					<div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
+						<h1 class="scaleReveal">
+							We are <strong>Photosynthetic Arts</strong>.
+						</h1>
+						<hr class="bottomReveal">
+						<p class="bottomReveal">with passion - with love.</p>
+						<a href="#ideology" data-id="ideology" class="scroll-link">
+						</a>
+					</div><!-- /.column -->
+				</div><!-- /.vertical center -->
+			</div><!-- /.container -->
 	</div>
 	<!-- End Jumbotron -->
 
@@ -137,24 +137,8 @@
 		</div><!-- /.div -->
 	<!-- End Hello Intro -->
 
-	<!-- Begin Our Count -->
-	<section id="ourcount" class="section-padding parallax-window our-count" data-parallax="scroll" data-image-src="{% static 'images/group.jpg' %}">
-		<div class="container center-vertically-holder">
-			<div class="center-vertically">
-				<div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
-					<h1 class="scaleReveal">
-					<br><br>
-					<br><br>
-					<br><br>
-					</h1>
-				</div><!-- /.column -->
-			</div><!-- /.vertical center -->
-		</div><!-- /.container -->
-	</section><!-- /.section -->
-	<!-- End Our Count -->
-
-	<!-- Begin Team -->
-	<section id="team" class="background2 section-padding">
+	<!-- Begin Kollektiv -->
+	<section id="team" class="background1 section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 section-title text-center">
@@ -165,30 +149,22 @@
 			<div class="row mb40">
 
 				<!-- Item 1 -->
-				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 topReveal">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mt30-sm mt30-xs topReveal">
 					<div class="team-member-box">
 						<h3>Orell Hürzeler</h3>
 						<p class="mb20">Producer</p>
 						<div class="team-image-wrapper">
-							<span class="team-image-hover">
-								<span class="team-hover-content">
-								</span>
-							</span>
 							<img src="{% static 'images/Orell_portrait.jpg' %}" alt="1 Member" class="img-responsive img-circle team-member-img">
 						</div>
 					</div>
 				</div><!-- /.column -->
 
 				<!-- Item 2 -->
-				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mt30-xs bottomReveal">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mt30-sm mt30-xs bottomReveal">
 					<div class="team-member-box">
 						<h3>Remo Iseli</h3>
 						<p class="mb20">Producer</p>
 						<div class="team-image-wrapper">
-							<span class="team-image-hover">
-								<span class="team-hover-content">
-								</span>
-							</span>
 							<img src="{% static 'images/iseli_portrait.jpg' %}" alt="2 Member" class="img-responsive img-circle team-member-img">
 						</div>
 					</div>
@@ -224,8 +200,23 @@
 			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</section><!-- /.section -->
-	<!-- End Team -->
-
+	<!-- End Kollektiv -->
+	
+	<!-- Begin Our Count -->
+	<section id="ourcount" class="section-padding parallax-window our-count" data-parallax="scroll" data-image-src="{% static 'images/pha_background.jpg' %}">
+		<div class="container center-vertically-holder">
+			<div class="center-vertically">
+				<div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
+					<h1 class="scaleReveal">
+					<br><br>
+					<br><br>
+					<br><br>
+					</h1>
+				</div><!-- /.column -->
+			</div><!-- /.vertical center -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+	<!-- End Our Count -->
 
 <!-- Begin Work -->
 <section id="work" class="background1 section-padding-top">
@@ -234,7 +225,7 @@
 				<div class="col-xs-12 section-title text-center">
 					<h2>Gallery</h2>
 					<span class="section-divider mb15"></span>
-					<p class="mb30 scaleReveal">We do awesome stuff, and yeah.</p>
+					<p class="mb30 scaleReveal">We do awesome stuff, with passion - with love</p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 			<div class="row">
@@ -254,14 +245,14 @@
 			<div id="thework">
 				<!-- Item 1 -->
 			    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix graphics" data-my-order="3">
-			    	<div class="portfolio-image-holder"><img src="images/work/1.jpg" alt="1" class="img-responsive portfolio-image"></div>
+			    	<div class="portfolio-image-holder"><img src="{% static 'images/iseli_portrait.jpg' %}" alt="1" class="img-responsive portfolio-image"></div>
 			    	<span class="portfolio-badge badge">Graphics</span>
 			    	<span class="portfolio-hover">
 						<span>
 							<a href="https://dribbble.com/" target="_blank">
 								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
 							</a>
-							<a href="images/work/1.jpg" class="zoom" title="Equipt Design">
+							<a href="{% static 'images/iseli_portrait.jpg' %}" class="zoom" title="Equipt Design">
 								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
 							</a>
 							<span class="project-title no-margin-bottom mt10">Equipt Design</span>
@@ -411,7 +402,7 @@
 	
 
 	<!-- Begin Timeline -->
-	<section id="services" class="background1 section-padding-top">
+	<section id="services" class="background2 section-padding-top">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 section-title text-center">
@@ -485,7 +476,7 @@
 	<!-- End Timeline -->
 
 <!-- Begin Contact -->
-<section id="contact" class="background2 section-padding">
+<section id="contact" class="background1 section-padding">
 		<div class="container">
 			<div class="row mb30">
 				<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 section-title text-center">
