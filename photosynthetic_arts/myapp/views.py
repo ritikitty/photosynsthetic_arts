@@ -6,3 +6,12 @@ def home(request):
 
 def remoiseli(request):
     return render(request, 'remoiseli.html')    
+
+def orellhuerzeler(request):
+    return render(request, 'orellhuerzeler.html')  
+
+def janhuerzeler(request):
+    return render(request, 'janhuerzeler.html')  
+
+def natefrank(request):
+    return render(request, 'natefrank.html')  

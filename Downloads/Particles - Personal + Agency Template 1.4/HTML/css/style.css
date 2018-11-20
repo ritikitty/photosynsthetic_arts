@@ -1012,7 +1012,7 @@ ul.social-buttons li a:active {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-image: url("");
+	background-image: url("{% static 'images/pha_banner.jpg' %}");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;

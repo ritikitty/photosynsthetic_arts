@@ -21,5 +21,8 @@ from myapp import views
 urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^remoiseli/$', views.remoiseli, name='remoiseli'),
+    url(r'^orellhuerzeler/$', views.orellhuerzeler, name='orellhuerzeler'),
+    url(r'^janhuerzeler/$', views.janhuerzeler, name='janhuerzeler'), 
+    url(r'^nathanaelfrank/$', views.natefrank, name='natefrank'),
     url('admin/', admin.site.urls),
 ]
