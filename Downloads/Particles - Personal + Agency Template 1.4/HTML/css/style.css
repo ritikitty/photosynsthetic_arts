@@ -896,6 +896,12 @@ ul.social-buttons li a:active {
     padding: 15px 15px 0 15px;
 }
 
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
+  }
+
 .navbar {
 	border: 0;
 	border-radius: 0;
