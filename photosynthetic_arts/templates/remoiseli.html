@@ -3,10 +3,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
-	<meta name="author" content="Denis Samardjiev" />
+	<meta name="author" content="Photosynthetic Arts by Remo Iseli" />
 	<meta name="description" content="Particles - Personal + Agency Template">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title>Particles - Personal + Agency Template</title>
+	<title>Remo Iseli - Photosynthetic Arts</title>
 	
 	<!-- Royal Preloader CSS -->
 	<link href="{% static 'css/royal_preloader.css" rel="stylesheet">
@@ -29,9 +29,9 @@
 	<link href="{% static 'css/ionicons.min.css' %}" rel="stylesheet">
 	<link href="{% static 'css/pe-icon-7-stroke.css' %}" rel="stylesheet">
 	<link href="{% static 'css/magnific-popup.css' %}" rel="stylesheet">
-	<link href="{% static 'https://file.myfontastic.com/gC6yNbQq8CqvXgSqXQZAoH/icons.css' %}" rel="stylesheet">
+	<link href="https://file.myfontastic.com/gC6yNbQq8CqvXgSqXQZAoH/icons.css" rel="stylesheet">
 	<link href="{% static 'css/style.css' %}" rel="stylesheet" title="main-css">
-	<link href="{% static 'css/colors/orange.css' %}" rel="stylesheet">
+	<link href="{% static 'css/colors/orangelight.css' %}" rel="stylesheet">
 
 	<!-- Style Switcher / remove for production -->
 	<link href="css/style-switcher.css" rel="stylesheet">
@@ -87,14 +87,14 @@
 				<div class="row">
 					<!-- Page Title -->
 					<div class="hidden-xs col-sm-6">
-						<h1>Team Options</h1>
+						<h1>Photosynthetic Arts</h1>
 					</div>
 
 					<!-- Breadcrumbs -->
 					<div class="col-xs-12 col-sm-6 text-right">
 						<ol class="breadcrumb">
 							<li><span class="ion-home breadcrumb-home"></span><a href="{% url 'home' %}">Home</a></li>
-							<li>Team Options</li>
+							<li>Remo Iseli</li>
 						</ol>
 					</div><!-- /column --> 
 				</div><!-- /row -->  
@@ -103,60 +103,208 @@
 	</header>
 	<!-- End Header -->
 
+
 	<!-- Begin Intro -->
 	<section id="team-option1">
 
 			<!-- Begin Hello Intro -->
-			<div id="hello-intro" class="pt60 pb60">
+			<div id="team-option1" class="pt60 pb60">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-3 col-sm-3">
 							<h2 class="no-margin rotateLeftReveal">Remo Iseli</h2><br><br>
-							<img src="images/team-member-1.jpg" alt="Team Member" class="img-responsive img-circle team-member-img text-center">
+							<img src="{% static 'images/collective/iseli_square.jpg' %}" alt="Team Member" class="img-responsive img-circle team-member-img text-center">
 						</div>
 						<div class="col-lg-8 col-sm-9 mt30-xs">
-							<h4 class="no-margin rightReveal">Photosynthetic Arts is a collective of artists based on photography, videography and webdesign. Thereby is the focus on landscaping-, nature-, lifestyle- and eventphotography.<br><br>
-								Beside the passion for cameras, we are connected through nutrition, lifestyle, love of nature, travelling and on a final note the dream of free development of our individual consciousness. This was the headstone to pave the way for a collective cooperation.<br><br>
-								We have discovered creative spirits in our beloved sphere and their productions were a key to create our first collective projects. Stay tuned!<br><br>
-								We are very pleased for a common collaboration with you, just get in touch with us.<br><br>
-								<strong>With Passion - With Love ❤️</strong><br><br>
-								Jan, Nathanael, Orell, Remo</h4>
+							<h4 class="no-margin rightReveal"><br><br><br>Biography ... </h4>
 						</div>
 					</div><!-- /.row -->
 				</div><!-- /.container -->
 			</div><!-- /.div -->
 		<!-- End Hello Intro -->
 	
-	<!-- Begin Section 1 -->
-	<section id="team-option2" class="background2 section-padding">
-		<div class="container">
+	<!-- Begin Work -->
+	<section id="team-option2" class="background1 section-padding-top">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 section-title text-center">
-					<h2>Remo Iseli</h2>
+					<h2>Gallery</h2>
 					<span class="section-divider mb15"></span>
-					<p class="no-margin">This is option 2 for team members.</p>
+					<p class="mb30 scaleReveal">We are creating awesome stuff, with passion - with love</p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
+			<div class="row">
+				<div class="col-xs-12 text-center mb50">
+					<!-- Filter Buttons -->
+					<button class="filter btn btn-default btn-category btn-lg" data-filter="all">All</button>
+					<button class="filter btn btn-default btn-category btn-lg" data-filter=".orell">Orell Hürzeler</button>
+					<button class="filter btn btn-default btn-category btn-lg" data-filter=".remo">Remo Iseli</button>
+					<button class="filter btn btn-default btn-category btn-lg" data-filter=".jan">Jan Hürzeler</button>
+					<button class="filter btn btn-default btn-category btn-lg" data-filter=".nate">Nathanael Frank</button>
 
-		
-			<div class="row mt30">
-				<div id="topReveal" class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
-					<div class="team-member-box-2">
-						<div class="team-image-wrapper rotateTopReveal">
-							<img src="images/team-member-1.jpg" alt="Team Member" class="img-responsive img-circle team-member-img text-center">
-						</div>
-						<h3>John Bender</h3>
-						<p class="mb15">CEO</p>
-						<!-- Social -->
-		                <a href="#"><span class="ion-social-twitter social-icons-dark-hover mr15"></span></a>
-		                <a href="#"><span class="ion-social-facebook social-icons-dark-hover mr15"></span></a>
-						<a href="#"><span class="ion-social-googleplus-outline social-icons-dark-hover"></span></a>
-					</div>
+					<!-- Sort Buttons -->
+					<button class="sort btn btn-default btn-sort btn-lg" data-sort="my-order:asc"><span class="ion-ios-plus-empty"></span></button>
+					<button class="sort btn btn-default btn-sort btn-lg" data-sort="my-order:desc"><span class="ion-ios-minus-empty"></span></button>
 				</div><!-- /.column -->
-			</div>
+			</div><!-- /.row -->
+			<div id="thework">
+				<!-- Item 1 -->
+			    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix orell" data-my-order="3">
+			    	<div class="portfolio-image-holder"><img src="{% static 'images/gallery/orell/landscape.jpg' %}" alt="1" class="img-responsive portfolio-image"></div>
+			    	<span class="portfolio-badge badge">Landscape</span>
+			    	<span class="portfolio-hover">
+						<span>
+							<a href="https://dribbble.com/" target="_blank">
+								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
+							</a>
+							<a href="{% static 'images/gallery/orell/landscape.jpg' %}" class="zoom" title="Orell">
+								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
+							</a>
+							<span class="project-title no-margin-bottom mt10">by Orell</span>
+						</span>
+					</span>
+			    </div><!-- /.column -->
+
+			    <!-- Item 2 -->
+			    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix print jan" data-my-order="6">
+			    	<div class="portfolio-image-holder"><img src="{% static 'images/gallery/jan/milkyway.jpg' %}" alt="2" class="img-responsive portfolio-image"></div>
+			    	<span class="portfolio-badge badge">Milkyway</span>
+			    	<span class="portfolio-hover">
+						<span>
+							<a href="https://dribbble.com/" target="_blank">
+								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
+							</a>
+							<a href="{% static 'images/gallery/jan/milkyway.jpg' %}" class="zoom" title="Milkyway">
+								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
+							</a>
+							<span class="project-title no-margin-bottom mt10">by Jan</span>
+						</span>
+					</span>
+			    </div><!-- /.column -->
+
+			    <!-- Item 3 -->
+			    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix nate" data-my-order="4">
+			    	<div class="portfolio-image-holder"><img src="{% static 'images/gallery/nate/hallwilersee.jpg' %}" alt="3" class="img-responsive portfolio-image"></div>
+			    	<span class="portfolio-badge badge">Hallwilersee</span>
+			    	<span class="portfolio-hover">
+						<span>
+							<a href="https://dribbble.com/" target="_blank">
+								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
+							</a>
+							<a href="{% static 'images/gallery/nate/hallwilersee.jpg' %}" class="zoom" title="Hallwilersee">
+								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
+							</a>
+							<span class="project-title no-margin-bottom mt10">by Nate</span>
+						</span>
+					</span>
+			    </div><!-- /.column -->
+
+			    <!-- Item 4 -->
+			    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix orell" data-my-order="5">
+			    	<div class="portfolio-image-holder"><img src="{% static 'images/gallery/orell/mountainmirror.jpg' %}" alt="4" class="img-responsive portfolio-image"></div>
+			    	<span class="portfolio-badge badge">Mountain Mirror</span>
+			    	<span class="portfolio-hover">
+						<span>
+							<a href="https://dribbble.com/" target="_blank">
+								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
+							</a>
+							<a href="{% static 'images/gallery/orell/mountainmirror.jpg' %}" class="zoom" title="Mountain Mirror">
+								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
+							</a>
+							<span class="project-title no-margin-bottom mt10">by Orell</span>
+						</span>
+					</span>
+			    </div><!-- /.column -->
+
+			    <!-- Item 5 -->
+			    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix print orell" data-my-order="2">
+			    	<div class="portfolio-image-holder"><img src="{% static 'images/gallery/orell/blitz.jpg' %}" alt="5" class="img-responsive portfolio-image"></div>
+			    	<span class="portfolio-badge badge">Thunderbolt</span>
+			    	<span class="portfolio-hover">
+						<span>
+							<a href="https://dribbble.com/" target="_blank">
+								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
+							</a>
+							<a href="{% static 'images/gallery/orell/blitz.jpg' %}" class="zoom" title="Thunderbolt">
+								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
+							</a>
+							<span class="project-title no-margin-bottom mt10">by Orell</span>
+						</span>
+					</span>
+			    </div><!-- /.column -->
+
+			    <!-- Item 6 -->
+			    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix remo" data-my-order="1">
+			    	<div class="portfolio-image-holder"><img src="{% static 'images/gallery/Iseli/koenigsallee.jpg' %}" alt="6" class="img-responsive portfolio-image"></div>
+			    	<span class="portfolio-badge badge">Königsallee, Düsseldorf</span>
+			    	<span class="portfolio-hover">
+						<span>
+							<a href="https://dribbble.com/" target="_blank">
+								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
+							</a>
+							<a href="{% static 'images/gallery/Iseli/koenigsallee.jpg' %}" class="zoom" title="Königsallee, Düsseldorf">
+								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
+							</a>
+							<span class="project-title no-margin-bottom mt10">by Remo</span>
+						</span>
+					</span>
+			    </div><!-- /.column -->
+
+			    <!-- Item 7 -->
+			    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix graphics nate" data-my-order="9">
+			    	<div class="portfolio-image-holder"><img src="{% static 'images/gallery/nate/nature1.jpg' %}" alt="7" class="img-responsive portfolio-image"></div>
+			    	<span class="portfolio-badge badge">Portrait</span>
+			    	<span class="portfolio-hover">
+						<span>
+							<a href="https://dribbble.com/" target="_blank">
+								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
+							</a>
+							<a href="{% static 'images/gallery/nate/gian.jpg' %}" class="zoom" title="Nature">
+								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
+							</a>
+							<span class="project-title no-margin-bottom mt10">by Nate</span>
+						</span>
+					</span>
+			    </div><!-- /.column -->
+
+			    <!-- Item 8 -->
+			    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix jan" data-my-order="7">
+			    	<div class="portfolio-image-holder"><img src="{% static 'images/gallery/jan/smokings.jpg' %}" alt="8" class="img-responsive portfolio-image"></div>
+			    	<span class="portfolio-badge badge">Smokings</span>
+			    	<span class="portfolio-hover">
+						<span>
+							<a href="https://dribbble.com/" target="_blank">
+								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
+							</a>
+							<a href="{% static 'images/gallery/jan/smokings.jpg' %}" class="zoom" title="Smokings">
+								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
+							</a>
+							<span class="project-title no-margin-bottom mt10">by Jan</span>
+						</span>
+					</span>
+			    </div><!-- /.column -->
+
+			    <!-- Item 9 -->
+			    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix web" data-my-order="8">
+			    	<div class="portfolio-image-holder"><img src="{% static 'images/gallery/orell/saxofon.jpg' %}" alt="9" class="img-responsive portfolio-image"></div>
+			    	<span class="portfolio-badge badge">Saxofon</span>
+			    	<span class="portfolio-hover">
+						<span>
+							<a href="https://dribbble.com/" target="_blank">
+								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
+							</a>
+							<a href="{% static 'images/gallery/orell/saxofon.jpg' %}" class="zoom" title="Saxofon">
+								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
+							</a>
+							<span class="project-title no-margin-bottom mt10">by Orell</span>
+						</span>
+					</span>
+			    </div><!-- /.column -->
+			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</section><!-- /.section -->
-	<!-- End Section 2 -->
+	<!-- End Work -->
+	
 
 	<!-- Begin Footer -->
 	<footer class="background1 footer-padding">

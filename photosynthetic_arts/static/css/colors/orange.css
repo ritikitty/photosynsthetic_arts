@@ -166,12 +166,20 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 /* =Jumbotron Main
 -------------------------------------------------------------- */
 #particles-js {
-	background: #f39c12; /* Old browsers */
-	background: -moz-linear-gradient(left, #f39c12 0%, #e67e22 35%, #fca314 66%, #f1c40f 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #f39c12 0%,#e67e22 35%,#fca314 66%,#f1c40f 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, #f39c12 0%,#e67e22 35%,#fca314 66%,#f1c40f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f39c12', endColorstr='#f1c40f',GradientType=1 ); /* IE6-9 */
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("/static/images/Pha_banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	/*background: #6819e8; /* Old browsers */
+	/*background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); /* FF3.6-15 */
+	/*background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* Chrome10-25,Safari5.1-6 */
+	/*background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 ); /* IE6-9 */
 }
+
 
 /* =Our Process
 -------------------------------------------------------------- */
